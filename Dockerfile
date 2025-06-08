@@ -7,4 +7,4 @@ COPY . .
 
 RUN mvn clean package -DskipTests
 
-CMD ["java", "-jar", "target/tasktracker-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/shopping-list-0.0.1-SNAPSHOT.jar app.jar"]
